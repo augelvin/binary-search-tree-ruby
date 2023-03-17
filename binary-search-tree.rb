@@ -1,10 +1,8 @@
 class Node
-    include Comparable
-
-  def initialize
-    @mid
-    @left
-    @right
+  def initialize(mid, left, right)
+    @mid = mid
+    @left = left
+    @right = right
   end
 end
 
