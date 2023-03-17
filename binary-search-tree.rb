@@ -8,7 +8,7 @@ end
 
 class Tree
   def initialize(array)
-    @root = build_tree(array)
+    @root = build_tree(array.sort.uniq)
   end
 
   def build_tree(array)
